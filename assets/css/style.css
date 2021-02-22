@@ -18,7 +18,7 @@ header {
     height: 1in;
     padding: 30px;
     padding-left: 10px;
-    background-image: url(../images/pattern.jpg);
+    background-image: url(../images/code.jpg);
 }
 
 
@@ -83,7 +83,7 @@ img {
 .circle{
     width:200px;
     height: 200px;
-    background-image: url(../images/background.jpeg);
+    background-image: url(../images/pattern.jpg);
     border-radius: 50%;
 
 
