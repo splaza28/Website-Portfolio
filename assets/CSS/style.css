@@ -89,14 +89,10 @@ img {
 
 }
    
-
-
 .container {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
-    
   }
 
 
@@ -146,8 +142,7 @@ h3{
 
 .thumbnailA:hover, .thumbnailB:hover {
     width: 50%;
-    height:50%;
-
+    height:50%
 }
 
 .third{
@@ -167,21 +162,15 @@ footer{
 
 footer h2{
     text-align:center;
-    margin-right: 100px;
-
-    
+    margin-right: 100px; 
 }
-
-
 
 footer li {
     font-size: 20px;
     font-family: sans-serif;
     text-align:center;
     margin-right: 100px;
-    list-style-type: none;
-    
-    
+    list-style-type: none; 
 }
 
 footer a{
