@@ -194,44 +194,7 @@ footer a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 992px) {
-    .contain {
-        display: flex;
-        flex-wrap: wrap;
-        width: 50%;
-        margin-left: 250px;
 
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-    a {
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-    .thumbnailA, .thumbnailB {
-        width: 20%;
-
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-    h3 {
-        font-size: 15px;
-
-    }
-  } 
-
-  @media screen and (max-width: 992px) {
-    .first, .second, .third {
-        font-size: 20px;
-
-    }
-  } 
  
 
 
