@@ -210,31 +210,34 @@ footer a{
         flex-wrap: wrap;
         height: 1.5in;
         padding: 30px;
-        padding-left: 10px;
+        padding-left: 25px;
+
        
     }
     
     img {
-       width:30%;
+       width:35%;
+       height:120%;
        padding-left:5px;
-       padding-top: 75px;
+       padding-top: 130px;
         }
 
     header nav ul li{
          
-         display: inline;
-         margin-right:25px;
+         
+         margin-right:15px;
          font-weight: bold;
-         font-size: 20px; 
+         font-size: 15px; 
         
     
     }
 
     #contain {
         position:absolute;
-        top:58%;
-        left:60%; 
-        width: 320px;
+        top:65%;
+        left:65%; 
+        width: auto;
+        height:fit-content;
         font-size: 12px;
         border-radius: 100px;
       
@@ -246,35 +249,40 @@ footer a{
         background-repeat: no-repeat;  
  
     }
+
+      section ul{
+       flex-direction: column;
+    }
+
  
     .thumbnailA{
 
-        padding-right: 50px;
-        padding-left: 50px;
+        
+        padding-right: 120px;
+        padding-left: 130px;
         width:100%;
-        margin-left: 100px;
+        margin-left: 175px;
+        margin-bottom:25px;
         
     }
 
     .thumbnailB {
-        width: 60%;
-        margin-left: 200px;
+        width: 40%;
+        margin-left: 300px;
+        margin-top:;
     }
 
-    .thumbnailB:hover {
-        width: 75%;
-        height:75%;
-    }
+    
     
 
       h3{
           
           font-size:20px;
           margin-left: 275px;
-          text-align: justify;
+          text-align: center;
        
       }
-
+      
     
      .second {
         font-size: 40px;
