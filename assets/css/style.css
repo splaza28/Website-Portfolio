@@ -37,7 +37,8 @@ header nav {
     margin-right: 30px;
     float: right;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 25px;
+    margin-top: 15px;
     
 }
 
@@ -48,10 +49,12 @@ header nav ul{
 
 header nav ul li {
     text-align: center;
-    display:inline;
+    display: inline;
     margin-right: 100px;
     font-weight: bold;
-    font-size: 20px; 
+    
+   
+    
 }
 
 a {
@@ -60,6 +63,7 @@ a {
 }
 
 img {
+    
     width: auto;
     height: auto;
     object-fit: contain;
@@ -68,7 +72,7 @@ img {
     
 }
 
-.contain {
+#contain {
     position: absolute;
     top: 40%;
     left: 30%;
@@ -147,7 +151,7 @@ h3{
 }
 
 .thumbnailA{
-    width: 40%;
+    width: 30%;
 }
 
 .thumbnailB{
@@ -158,7 +162,7 @@ h3{
 
 .thumbnailA:hover, .thumbnailB:hover {
     width: 100%;
-    height:100%
+    height:100%;
 }
 
 .third{
@@ -196,57 +200,99 @@ footer a{
 
 /*MEDIA QUERIES FOR MOBILE*/
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
     h1 mark {
-        font-size:30px
+        font-size:40px
     }
 
+    header {
+        display:flex;
+        flex-wrap: wrap;
+        height: 1.5in;
+        padding: 30px;
+        padding-left: 10px;
+       
+    }
+    
     img {
-       width: 40%;
+       width:30%;
        padding-left:5px;
+       padding-top: 75px;
         }
 
-}
-@media screen and (max-width: 400px) {
-    .contain {
-     width:fit-content;
-     height: fit-content;
-     margin-left: 100px;
-     margin-top: 150px;
-     transform:translate(-20%, -50%);
-     padding-right:80px;
-     border-radius:75px;
-     font-size:12px;
+    header nav ul li{
+         
+         display: inline;
+         margin-right:25px;
+         font-weight: bold;
+         font-size: 20px; 
+        
+    
+    }
+
+    #contain {
+        position:absolute;
+        top:58%;
+        left:60%; 
+        width: 320px;
+        font-size: 12px;
+        border-radius: 100px;
+      
+        
     }
      
     .circle {
-        width:auto;   
+        width:auto; 
+        background-repeat: no-repeat;  
  
     }
-  }
+ 
+    .thumbnailA{
 
-  @media screen and (max-width: 400px) {
-    .thumbnailA, .thumbnailB {
-        float:right;
+        padding-right: 50px;
+        padding-left: 50px;
+        width:100%;
+        margin-left: 100px;
+        
+    }
+
+    .thumbnailB {
+        width: 60%;
+        margin-left: 200px;
+    }
+
+    .thumbnailB:hover {
+        width: 75%;
+        height:75%;
     }
     
 
       h3{
-          float:right;
-          font-size:25px;
           
-       
+          font-size:20px;
+          margin-left: 275px;
+          text-align: justify;
        
       }
 
-    }
-
-  @media screen and (max-width: 400px) {
-    .first, .second, .third {
+    
+     .second {
         font-size: 40px;
-        margin-right:65px;
+        margin-right: 150px;
          
         }
+
+        .third{
+            font-size: 25px;
+            margin-right: 50px;
+        }
+
+        footer li {
+            font-size: 15px;
+            margin-left: 50px;
+            list-style-type: none; 
+        }
+    
 
     }
   
